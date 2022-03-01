@@ -1,0 +1,89 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32106.194
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DuckDuckGoProxy", "DuckDuckGoProxy\DuckDuckGoProxy.csproj", "{675796C7-4B36-4070-BE9F-B40D43F68948}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DuckDuckGoProxy.ViewModels", "DuckDuckGoProxy.ViewModels\DuckDuckGoProxy.ViewModels.csproj", "{79637B63-3842-489D-B0E1-5EA1B650E3BE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Clients", "Clients", "{B78E434B-BF8F-4948-ABE1-37CFEACCDDA2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DuckDuck.Client", "DuckDuck.Client\DuckDuck.Client.csproj", "{40D22AC2-0241-44CD-BAEF-DB78808375AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DuckDuck.ViewModels", "DuckDuck.ViewModels\DuckDuck.ViewModels.csproj", "{15BD4C0D-D745-4ABA-97B6-4CA998FFDD36}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DuckDuckGoProxy.Integration.Interfaces", "DuckDuckGoProxy.Integration.Interfaces\DuckDuckGoProxy.Integration.Interfaces.csproj", "{36864AD5-4CC2-40CC-922E-57DCFFEB4CB2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DuckDuckGoProxy.Configuration", "DuckDuckGoProxy.Configuration\DuckDuckGoProxy.Configuration.csproj", "{517F9D97-F771-4AD2-B0E3-A3FBDF52F71D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{1A349308-8466-419F-9D84-91AC7DDDD747}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DuckDuckGoProxy.Application", "DuckDuckGoProxy.Application\DuckDuckGoProxy.Application.csproj", "{EF5CEF03-24D8-4C0F-AC39-B86477D68E59}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DuckDuck.Client.Tests", "DuckDuck.Client.Tests\DuckDuck.Client.Tests.csproj", "{C3610CEE-BC67-498B-8581-0C70D8724FD6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DuckDuckGoProxy.Application.Tests", "DuckDuckGoProxy.Application.Tests\DuckDuckGoProxy.Application.Tests.csproj", "{79D4C324-9C65-4817-B9CE-DBFD984788CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DuckDuckGoProxy.Persistence", "DuckDuckGoProxy.Persistence\DuckDuckGoProxy.Persistence.csproj", "{7D2E6E78-2CF6-4C3F-BF9A-CFFDEF40A0FE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{675796C7-4B36-4070-BE9F-B40D43F68948}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{675796C7-4B36-4070-BE9F-B40D43F68948}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{675796C7-4B36-4070-BE9F-B40D43F68948}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{675796C7-4B36-4070-BE9F-B40D43F68948}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79637B63-3842-489D-B0E1-5EA1B650E3BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79637B63-3842-489D-B0E1-5EA1B650E3BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79637B63-3842-489D-B0E1-5EA1B650E3BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79637B63-3842-489D-B0E1-5EA1B650E3BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40D22AC2-0241-44CD-BAEF-DB78808375AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40D22AC2-0241-44CD-BAEF-DB78808375AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40D22AC2-0241-44CD-BAEF-DB78808375AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40D22AC2-0241-44CD-BAEF-DB78808375AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15BD4C0D-D745-4ABA-97B6-4CA998FFDD36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15BD4C0D-D745-4ABA-97B6-4CA998FFDD36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15BD4C0D-D745-4ABA-97B6-4CA998FFDD36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15BD4C0D-D745-4ABA-97B6-4CA998FFDD36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36864AD5-4CC2-40CC-922E-57DCFFEB4CB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36864AD5-4CC2-40CC-922E-57DCFFEB4CB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36864AD5-4CC2-40CC-922E-57DCFFEB4CB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36864AD5-4CC2-40CC-922E-57DCFFEB4CB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{517F9D97-F771-4AD2-B0E3-A3FBDF52F71D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{517F9D97-F771-4AD2-B0E3-A3FBDF52F71D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{517F9D97-F771-4AD2-B0E3-A3FBDF52F71D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{517F9D97-F771-4AD2-B0E3-A3FBDF52F71D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF5CEF03-24D8-4C0F-AC39-B86477D68E59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF5CEF03-24D8-4C0F-AC39-B86477D68E59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF5CEF03-24D8-4C0F-AC39-B86477D68E59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF5CEF03-24D8-4C0F-AC39-B86477D68E59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3610CEE-BC67-498B-8581-0C70D8724FD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3610CEE-BC67-498B-8581-0C70D8724FD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3610CEE-BC67-498B-8581-0C70D8724FD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3610CEE-BC67-498B-8581-0C70D8724FD6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79D4C324-9C65-4817-B9CE-DBFD984788CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79D4C324-9C65-4817-B9CE-DBFD984788CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79D4C324-9C65-4817-B9CE-DBFD984788CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79D4C324-9C65-4817-B9CE-DBFD984788CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D2E6E78-2CF6-4C3F-BF9A-CFFDEF40A0FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D2E6E78-2CF6-4C3F-BF9A-CFFDEF40A0FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D2E6E78-2CF6-4C3F-BF9A-CFFDEF40A0FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D2E6E78-2CF6-4C3F-BF9A-CFFDEF40A0FE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{40D22AC2-0241-44CD-BAEF-DB78808375AE} = {B78E434B-BF8F-4948-ABE1-37CFEACCDDA2}
+		{15BD4C0D-D745-4ABA-97B6-4CA998FFDD36} = {B78E434B-BF8F-4948-ABE1-37CFEACCDDA2}
+		{C3610CEE-BC67-498B-8581-0C70D8724FD6} = {1A349308-8466-419F-9D84-91AC7DDDD747}
+		{79D4C324-9C65-4817-B9CE-DBFD984788CD} = {1A349308-8466-419F-9D84-91AC7DDDD747}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {089A9190-6445-4F95-99AE-81AF8510E1E8}
+	EndGlobalSection
+EndGlobal

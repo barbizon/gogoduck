@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="11.0.1" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="11.0.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DuckDuck.Client\DuckDuck.Client.csproj" />
+    <ProjectReference Include="..\DuckDuckGoProxy.Application\DuckDuckGoProxy.Application.csproj" />
+    <ProjectReference Include="..\DuckDuckGoProxy.Persistence\DuckDuckGoProxy.Persistence.csproj" />
+    <ProjectReference Include="..\DuckDuckGoProxy.ViewModels\DuckDuckGoProxy.ViewModels.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Update="History\history.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+</Project>
